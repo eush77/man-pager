@@ -1,0 +1,29 @@
+{
+  "name": "man-pager",
+  "version": "0.0.0",
+  "description": "Pipe Troff source to the man(1) pager",
+  "author": "Eugene Sharygin <eush77@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/eush77/man-pager",
+  "repository": "eush77/man-pager",
+  "bugs": {
+    "url": "https://github.com/eush77/man-pager/issues"
+  },
+  "keywords": [
+    "troff",
+    "man",
+    "pager",
+    "pipe",
+    "stream",
+    "less",
+    "more",
+    "help"
+  ],
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {}
+}
