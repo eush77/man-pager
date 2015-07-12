@@ -14,7 +14,10 @@ module.exports = function () {
 
   troff.pipe(fs.createWriteStream(filename))
     .on('finish', function () {
-      spawn('man', [filename], { stdio: ['ignore', 1, 2] });
+      spawn('man', [filename], { stdio: ['ignore', 1, 2] })
+        .on('exit', function () {
+          fs.unlink(filename);
+        });
     });
 
   return troff;
