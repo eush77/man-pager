@@ -1,7 +1,7 @@
 {
   "name": "man-pager",
   "version": "0.0.0",
-  "description": "Pipe Troff source to the man(1) pager",
+  "description": "Pipe man pages (in Troff) to the man(1) pager",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
   "files": [
@@ -13,6 +13,7 @@
     "url": "https://github.com/eush77/man-pager/issues"
   },
   "keywords": [
+    "roff",
     "troff",
     "man",
     "pager",

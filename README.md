@@ -4,10 +4,16 @@
 
 [![Dependency Status][david-badge]][david]
 
-Pipe Troff source to the man(1) pager.
+Pipe man pages (in Troff) to the `man(1)` pager.
 
 [david]: https://david-dm.org/eush77/man-pager
 [david-badge]: https://david-dm.org/eush77/man-pager.png
+
+## API
+
+#### `troffSource.pipe(manPager())`
+
+`manPager()` returns a writable stream and launches man pager to display the content.
 
 ## Install
 
